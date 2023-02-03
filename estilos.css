@@ -1,0 +1,163 @@
+body {
+  margin: auto;
+  padding: 0;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+ 
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  padding: 10px;
+}
+
+.nav-list {
+  width: 250px;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+  color: #000000;
+}
+
+.icong {
+  position: relative;
+  right: 10px;
+  border-radius: 50px;
+}
+
+.logo-principal {
+  width: 330px;
+  height: 120px;
+  position: relative;
+  top: 150px;
+  left: 520px;
+}
+
+.buscador {
+  width: 525px;
+  height: 40px;
+  border: 1px solid #dfe1e5;
+  border-radius: 100px;
+  outline: none;
+  position: relative;
+  top: 185px;
+  left: 420px;
+  text-align: center;
+}
+
+.buscador:hover {
+  width: 525px;
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+
+.microfono {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  position: absolute;
+  top: 383px;
+  left: 910px;
+  cursor: pointer;
+}
+
+.lupa {
+  background-image: url("https://img.icons8.com/android/24/000000/search.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 383px;
+  left: 445px;
+}
+
+.button-suerte {
+  position: relative;
+  top: 210px;
+  left: 520px;
+  height: 36px;
+  background-color: #f2f2f2;
+  border: 0;
+  font-size: 14px;
+  color: #5f6368;
+  border-radius: 8px;
+  padding: 0 15px;
+  margin: 10px;
+ 
+}
+.button-suerte:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px #000001;
+  color: #222;
+}
+
+.button-google {
+  position: relative;
+  top: 210px;
+  left: 510px;
+  height: 36px;
+  background-color: #f2f2f2;
+  border: 0;
+  font-size: 14px;
+  color: #5f6368;
+  border-radius: 8px;
+  padding: 0 15px;
+  margin: 10px;
+  
+}
+.button-google:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px #000001;
+  color: #222;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 13px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+footer li {
+  margin: 10px;
+  color: #5f6368;
+}
+
+.ul-right {
+}
+
+.ul-left {
+ position: absolute;
+ left: 1080px;
+}
